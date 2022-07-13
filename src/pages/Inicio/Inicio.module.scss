@@ -1,4 +1,11 @@
-@import 'styles/variaveis';
+@import "styles/variaveis";
+
+.inicio {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 50px $padding-horizontal;
+}
+
 .titulo {
   color: $dark;
   font-size: 3rem;
@@ -29,7 +36,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 0;
-    transition: .2s ease;
+    transition: 0.2s ease;
     width: 100%;
     &:hover {
       background-color: $red-dark;
